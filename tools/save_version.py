@@ -12,6 +12,7 @@ if not version.startswith('v') or not version[1:].isdigit():raise SystemExit('Us
 dest=ROOT/'versions'/version
 if dest.exists() and ('--resume' not in sys.argv or (dest/'manifest.json').exists()):raise SystemExit(f'Refusing to overwrite existing version: {dest}')
 files=['index.html','style.css','deck.js','research_data.json','source.csv','analysis.py','collection_report.md','README.md']
+files += [n for n in ['improvement_plan.md'] if (ROOT/n).is_file()]
 for name in files:
  if not (ROOT/name).is_file():raise SystemExit(f'Missing {name}')
 dest.mkdir(parents=True,exist_ok=True)
@@ -33,7 +34,7 @@ with sync_playwright() as p:
  #stage {position:static!important;width:1600px!important;height:auto!important;transform:none!important;}
  section.slide {position:relative!important;display:flex!important;flex-direction:column!important;width:1600px!important;height:900px!important;break-before:auto!important;break-after:page!important;page-break-after:always!important;break-inside:avoid!important;}
  section.slide:last-child {break-after:auto!important;page-break-after:auto!important;}
- .slide h1,.slide .body,.slide .eyebrow {opacity:1!important;transform:none!important;}
+ .slide h1,.slide .body,.slide .eyebrow,.slide .section-label {opacity:1!important;transform:none!important;}
  .controls,.notes,.overview,.progress,.sr {display:none!important;}
  * {-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;}
  }''')
