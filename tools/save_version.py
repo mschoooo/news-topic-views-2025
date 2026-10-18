@@ -17,6 +17,7 @@ if not preview and dest.exists() and ('--resume' not in sys.argv or (dest/'manif
 files=['index.html','style.css','deck.js','research_data.json','source.csv','analysis.py','collection_report.md','README.md']
 optional=['improvement_plan.md','appendix.html','analysis_review.py','analysis_review.md','v4_metrics.json','build_v4.py','v4_style.css','v4_deck.js','image_sources.json','image_sources.md','speaker_notes.md','storyboard.json','revision_log.md','qa_report.md']
 optional += ['build_v5.py','v5_style.css','v5_deck.js']
+optional += ['build_v6.py','v6_style.css','v6_deck.js','v6_revision_plan.md','v6_qa_results.json']
 files += [n for n in optional if (ROOT/n).is_file()]
 for name in files:
  if not (ROOT/name).is_file():raise SystemExit(f'Missing {name}')
@@ -38,6 +39,7 @@ with sync_playwright() as p:
  assert page.evaluate('Array.from(document.images).every(i=>i.naturalWidth>0)'), 'Broken image in deck'
  count=page.locator('section.slide').count()
  width,height=page.locator('#stage').evaluate('(s)=>[Number(s.dataset.width)||1600,Number(s.dataset.height)||900]')
+ page.evaluate('window.finishAllMotion?.()')
  page.evaluate('base=>document.querySelectorAll("a[href]").forEach(a=>{if(a.href.startsWith("file:"))a.href=base+a.getAttribute("href");})', 'https://mschoooo.github.io/news-topic-views-2025/versions/'+version+'/')
  css='''@media print {
  @page { size:WIDTHpx HEIGHTpx; margin:0; }
@@ -45,7 +47,7 @@ with sync_playwright() as p:
  #stage {position:static!important;width:WIDTHpx!important;height:auto!important;transform:none!important;}
  section.slide {position:relative!important;display:flex!important;flex-direction:column!important;width:WIDTHpx!important;height:HEIGHTpx!important;break-before:auto!important;break-after:page!important;page-break-after:always!important;break-inside:avoid!important;}
  section.slide:last-child {break-after:auto!important;page-break-after:auto!important;}
- .slide h1,.slide .body,.slide .eyebrow,.slide .section-label,.reveal {opacity:1!important;transform:none!important;}
+ .slide h1,.slide .body,.slide .eyebrow,.slide .section-label,.reveal,[data-seq] {opacity:1!important;transform:none!important;}
  .controls,.notes,.overview,.progress,.sr,.landscape-tip {display:none!important;}
  * {-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;}
  }'''.replace('WIDTH',str(width)).replace('HEIGHT',str(height))
