@@ -5,3 +5,4 @@ source.csv -text
 *.json text eol=lf
 *.py text eol=lf
 *.md text eol=lf
+versions/** -text
