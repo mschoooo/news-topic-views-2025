@@ -1,0 +1,83 @@
+{
+  "version": "v6",
+  "basis": "V5",
+  "research_data_and_source_unchanged": true,
+  "accuracy": {
+    "full_analysis_reproduced_in_isolated_folder": true,
+    "v4_additional_analysis_reproduced": true,
+    "html_css_js_appendix_notes_reproduced": true,
+    "v3_all_existing_results_identical": true,
+    "v1_to_v5_archive_hashes_unchanged": true,
+    "verified_official_profiles": 5,
+    "verified_real_thumbnails": 9,
+    "all_image_bytes_dimensions_ids_titles_verified": true,
+    "all_1680_collection_dates_checked": true
+  },
+  "browser": {
+    "slides": 15,
+    "viewport_states": 30,
+    "viewports": [
+      {
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "width": 1366,
+        "height": 768
+      }
+    ],
+    "overflow_and_svg_bounds_issues": 0,
+    "javascript_errors": [],
+    "request_failures": []
+  },
+  "motion": {
+    "count_up_mid_values": [
+      {
+        "now": 13,
+        "final": 23,
+        "accessible": "23"
+      },
+      {
+        "now": 14,
+        "final": 35,
+        "accessible": "35"
+      }
+    ],
+    "comparison_emphasis_observed": true,
+    "bar_growth_and_sequential_groups_observed": true,
+    "rapid_navigation_cancels_previous_animation": true,
+    "reduced_motion_all_15_slides_final_immediately": true,
+    "beforeprint_all_values_and_graphs_final": true,
+    "fullscreen": true,
+    "notes": true,
+    "home_end_keyboard": true,
+    "toc_15": true,
+    "touch_swipe": true,
+    "anime_unavailable_fallback_final": true,
+    "javascript_errors": []
+  },
+  "native_mobile": {
+    "states": 30,
+    "is_mobile": true,
+    "has_touch": true,
+    "portrait": [
+      390,
+      844
+    ],
+    "landscape": [
+      844,
+      390
+    ],
+    "horizontal_overflow": 0,
+    "tap_and_notes": "passed"
+  },
+  "preview_pdf": {
+    "pages": 15,
+    "aspect_ratio": "16:9",
+    "text_bounds_and_links": "passed",
+    "all_pages_rendered_and_compared_to_html": true,
+    "max_mean_pixel_difference_0_255": 4.303
+  },
+  "public_deployment_record": "https://mschoooo.github.io/news-topic-views-2025/deployments/v6.json",
+  "scope_note": "Local and preview-PDF checks are preserved before immutable archiving. Final archive PDF and live deployment are verified separately without modifying archive bytes. No audience recruitment study was conducted."
+}
