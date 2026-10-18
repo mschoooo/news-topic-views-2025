@@ -1,8 +1,8 @@
-﻿from pathlib import Path
+from pathlib import Path
 import pandas as pd,numpy as np,re,json,collections,hashlib
 ROOT=Path(__file__).resolve().parent
 SRC=ROOT/'source.csv' if (ROOT/'source.csv').exists() else ROOT/'output/youtube_2025.csv'
-OUT=ROOT if (ROOT/'source.csv').exists() else ROOT/'output/deck_v2'
+OUT=ROOT if (ROOT/'source.csv').exists() else ROOT/'output/deck_v3'
 OUT.mkdir(exist_ok=True,parents=True)
 d=pd.read_csv(SRC);assert len(d)==1680 and not d['영상 URL'].duplicated().any()
 channels=['14F','크랩 KLAB','스브스뉴스','소탐대실','비디오머그'];d['channel']=d['채널명'].str.replace(r' \(.*\)','',regex=True);d['month']=pd.to_datetime(d['업로드 날짜']).dt.month;d['minutes']=pd.to_timedelta(d['영상 길이']).dt.total_seconds()/60;d['views']=pd.to_numeric(d['조회수']);assert d['views'].ge(0).all() and d['minutes'].gt(0).all()
@@ -64,5 +64,9 @@ for lo,hi,label in [(0,25,'25자 이하'),(25,40,'26–40자'),(40,55,'41–55�
 videos=[]
 for _,r in d.iterrows():videos.append({'channel':r.channel,'title':r['영상 제목'],'core_title':r.core,'url':r['영상 URL'],'date':r['업로드 날짜'],'views':int(r.views),'minutes':float(r.minutes),'channel_rank':int(r['rank']),'top_quartile':bool(r.hit),'topics':[t for t in topics if r[t]],'features':[f for f in features if r[f]]})
 res={'schema_version':2,'source_sha256':hashlib.sha256(SRC.read_bytes()).hexdigest(),'channels':channels,'topics':topics,'feature_patterns':features,'summary':summ,'overall':cell(d),'topic_results':topic_rows,'feature_results':feature_rows,'feature_by_channel':feature_channels,'explanation_question_groups':four,'topic_title_combinations':combos,'models':models,'title_lengths':lengths,'videos':videos,'classification':{'unclassified':int((~d[list(topics)].any(axis=1)).sum()),'multi_label':int((d[list(topics)].sum(axis=1)>1).sum())},'period':'2025-01-01 / 2025-12-31','views_collected_at':'2026-10-18'}
+res['schema_version']=3
+res['topic_overview']=[{'topic':t,**cell(d[d[t]]),'share_of_all':float(d[t].mean())} for t in topics]
+res['topic_overview'].sort(key=lambda r:-r['n'])
+res['total_topic_assignments']=int(d[list(topics)].to_numpy().sum())
 (OUT/'research_data.json').write_text(json.dumps(res,ensure_ascii=False,indent=2),encoding='utf-8')
 print('overall',res['overall']);print('FEATURES',[(r['feature'],r['with']['n'],round(r['with']['rate']*100,1),round(r['without']['rate']*100,1)) for r in feature_rows]);print('adjusted',models['adjusted']);print('series-adjusted',models['with_series']);print('series',series_counts)

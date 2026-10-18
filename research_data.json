@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "source_sha256": "1365e9737dcb21b5f738d53dac823d9989175b0164798d64153a64b96f9a565c",
   "channels": [
     "14F",
@@ -30981,5 +30981,72 @@
     "multi_label": 723
   },
   "period": "2025-01-01 / 2025-12-31",
-  "views_collected_at": "2026-10-18"
+  "views_collected_at": "2026-10-18",
+  "topic_overview": [
+    {
+      "topic": "정치·국제",
+      "n": 684,
+      "hits": 196,
+      "rate": 0.28654970760233917,
+      "median_views": 172572.5,
+      "share_of_all": 0.40714285714285714
+    },
+    {
+      "topic": "경제·소비",
+      "n": 507,
+      "hits": 146,
+      "rate": 0.2879684418145957,
+      "median_views": 192441.0,
+      "share_of_all": 0.30178571428571427
+    },
+    {
+      "topic": "사회·생활",
+      "n": 325,
+      "hits": 87,
+      "rate": 0.2676923076923077,
+      "median_views": 192441.0,
+      "share_of_all": 0.19345238095238096
+    },
+    {
+      "topic": "음식·외식",
+      "n": 263,
+      "hits": 72,
+      "rate": 0.2737642585551331,
+      "median_views": 199811.0,
+      "share_of_all": 0.15654761904761905
+    },
+    {
+      "topic": "기술·디지털",
+      "n": 198,
+      "hits": 50,
+      "rate": 0.25252525252525254,
+      "median_views": 170707.0,
+      "share_of_all": 0.11785714285714285
+    },
+    {
+      "topic": "건강·의학",
+      "n": 161,
+      "hits": 33,
+      "rate": 0.20496894409937888,
+      "median_views": 174713.0,
+      "share_of_all": 0.09583333333333334
+    },
+    {
+      "topic": "과학·환경",
+      "n": 158,
+      "hits": 48,
+      "rate": 0.3037974683544304,
+      "median_views": 211001.0,
+      "share_of_all": 0.09404761904761905
+    },
+    {
+      "topic": "문화·연예",
+      "n": 154,
+      "hits": 41,
+      "rate": 0.2662337662337662,
+      "median_views": 179040.0,
+      "share_of_all": 0.09166666666666666
+    }
+  ],
+  "total_topic_assignments": 2450
 }
