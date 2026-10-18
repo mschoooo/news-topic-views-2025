@@ -1,0 +1,21 @@
+{
+  "version": "v1",
+  "saved_at": "2026-10-18T18:13:52.682068+09:00",
+  "source_commit": "9abc36ae8129b78926d97d1dce34047025f8c784",
+  "slides": 16,
+  "pdf": "news-topics-v1.pdf",
+  "pdf_pages": 16,
+  "files": {
+    "analysis.py": "ee9e7bf4e960e6ab26dafcfc8188d58ce0611273ff206cfc4235c996a7eb3626",
+    "assets\\ANIME-LICENSE.txt": "dc6ebeac55c967c7d0f33034011e25da0b4e27fe378b073e5fe184d621d620fb",
+    "assets\\anime.min.js": "b5ce1be3c3f530f192e0f2571d1942846096d66119cbada34bfdc912c4873f35",
+    "collection_report.md": "f755975eee1298fc91dcbb707d8d7a3809127b1c134d7b86c484da75e9080e1a",
+    "deck.js": "8cb1c659cd8b9d9f876bf1ec3f67a974bfc019bec258ad632b1e117bc7f3b528",
+    "index.html": "86e356f708c13912c84225daa3474f5774f21542730e43bff74a10c48c0b83a8",
+    "news-topics-v1.pdf": "1bd191e42eff54973f5942dfdade067ace75e8db9eeb56248db197362edd2f6e",
+    "README.md": "cfe6367210009a3a57091435ac5c7805b9e987c4b83de7b0e5c5ad9bce363d44",
+    "research_data.json": "ed2410719ed4a9171b1bdd1705bfa87169ea1bf7262e5ead7df6d1f57db3a217",
+    "source.csv": "1365e9737dcb21b5f738d53dac823d9989175b0164798d64153a64b96f9a565c",
+    "style.css": "97f529f0b8a3d78d44cf66af7b385d3228e39b5f364d7d2a43de7c284aa4b526"
+  }
+}

@@ -9,3 +9,9 @@ source.csv: Firecrawl 수집 원자료. research_data.json: 전체 사전·집�
 조회수는 2026-10-18 누적값입니다. 단어 사전 기반 탐색 비교이며 인과 추론이나 방송사 전체의 성과 순위를 뜻하지 않습니다.
 
 Anime.js 3.2.2 (MIT): https://github.com/juliangarnier/anime
+
+## 버전 기록 및 PDF
+
+현재 최초 발표본을 [버전 1](versions/v1/index.html)로 고정 보관했습니다. [버전 1 PDF](versions/v1/news-topics-v1.pdf)는 16:9, 16페이지입니다.
+
+[전체 버전 기록](versions/README.md). 앞으로 제작·수정하는 각 버전은 HTML과 PDF를 함께 저장합니다.
