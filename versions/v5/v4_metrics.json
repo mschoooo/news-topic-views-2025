@@ -1,0 +1,1154 @@
+{
+  "version": 4,
+  "source_sha256": "1365e9737dcb21b5f738d53dac823d9989175b0164798d64153a64b96f9a565c",
+  "original_columns": [
+    "채널명",
+    "영상 제목",
+    "영상 URL",
+    "업로드 날짜",
+    "조회수",
+    "영상 길이",
+    "영상 설명"
+  ],
+  "source_rows": 1680,
+  "missing_values": 0,
+  "duplicate_urls": 0,
+  "multi_label": 723,
+  "untagged": 282,
+  "top_quartile_count": 422,
+  "channel_quota": [
+    {
+      "channel": "14F",
+      "n": 575,
+      "quota": 144
+    },
+    {
+      "channel": "크랩 KLAB",
+      "n": 370,
+      "quota": 93
+    },
+    {
+      "channel": "스브스뉴스",
+      "n": 315,
+      "quota": 79
+    },
+    {
+      "channel": "소탐대실",
+      "n": 47,
+      "quota": 12
+    },
+    {
+      "channel": "비디오머그",
+      "n": 373,
+      "quota": 94
+    }
+  ],
+  "collection_evidence": {
+    "date": "2026-10-18",
+    "recorded_timestamp": "2026-10-18T17:29:47.614730+09:00",
+    "evidence": "collection_report.md (Firecrawl collection report); local raw/provenance.json also preserves per-video collectedAt. No collected_at column is assumed in CSV."
+  },
+  "topic_overview": [
+    {
+      "topic": "정치·국제",
+      "n": 684,
+      "hits": 196,
+      "rate": 0.28654970760233917,
+      "upload_share": 0.40714285714285714,
+      "title_only": {
+        "n": 367,
+        "hits": 95,
+        "rate": 0.25885558583106266
+      }
+    },
+    {
+      "topic": "경제·소비",
+      "n": 507,
+      "hits": 146,
+      "rate": 0.2879684418145957,
+      "upload_share": 0.30178571428571427,
+      "title_only": {
+        "n": 149,
+        "hits": 39,
+        "rate": 0.26174496644295303
+      }
+    },
+    {
+      "topic": "기술·디지털",
+      "n": 198,
+      "hits": 50,
+      "rate": 0.25252525252525254,
+      "upload_share": 0.11785714285714285,
+      "title_only": {
+        "n": 78,
+        "hits": 21,
+        "rate": 0.2692307692307692
+      }
+    },
+    {
+      "topic": "음식·외식",
+      "n": 263,
+      "hits": 72,
+      "rate": 0.2737642585551331,
+      "upload_share": 0.15654761904761905,
+      "title_only": {
+        "n": 140,
+        "hits": 47,
+        "rate": 0.3357142857142857
+      }
+    },
+    {
+      "topic": "건강·의학",
+      "n": 161,
+      "hits": 33,
+      "rate": 0.20496894409937888,
+      "upload_share": 0.09583333333333334,
+      "title_only": {
+        "n": 44,
+        "hits": 14,
+        "rate": 0.3181818181818182
+      }
+    },
+    {
+      "topic": "사회·생활",
+      "n": 325,
+      "hits": 87,
+      "rate": 0.2676923076923077,
+      "upload_share": 0.19345238095238096,
+      "title_only": {
+        "n": 93,
+        "hits": 23,
+        "rate": 0.24731182795698925
+      }
+    },
+    {
+      "topic": "과학·환경",
+      "n": 158,
+      "hits": 48,
+      "rate": 0.3037974683544304,
+      "upload_share": 0.09404761904761905,
+      "title_only": {
+        "n": 37,
+        "hits": 15,
+        "rate": 0.40540540540540543
+      }
+    },
+    {
+      "topic": "문화·연예",
+      "n": 154,
+      "hits": 41,
+      "rate": 0.2662337662337662,
+      "upload_share": 0.09166666666666666,
+      "title_only": {
+        "n": 44,
+        "hits": 16,
+        "rate": 0.36363636363636365
+      }
+    }
+  ],
+  "upload_heatmap": [
+    {
+      "channel": "14F",
+      "topic": "정치·국제",
+      "channel_total": 575,
+      "tagged": {
+        "n": 168,
+        "hits": 49,
+        "rate": 0.2916666666666667
+      },
+      "upload_share": 0.2921739130434783,
+      "title_only": {
+        "n": 83,
+        "hits": 22,
+        "rate": 0.26506024096385544
+      }
+    },
+    {
+      "channel": "14F",
+      "topic": "경제·소비",
+      "channel_total": 575,
+      "tagged": {
+        "n": 140,
+        "hits": 30,
+        "rate": 0.21428571428571427
+      },
+      "upload_share": 0.24347826086956523,
+      "title_only": {
+        "n": 50,
+        "hits": 10,
+        "rate": 0.2
+      }
+    },
+    {
+      "channel": "14F",
+      "topic": "기술·디지털",
+      "channel_total": 575,
+      "tagged": {
+        "n": 49,
+        "hits": 7,
+        "rate": 0.14285714285714285
+      },
+      "upload_share": 0.08521739130434783,
+      "title_only": {
+        "n": 28,
+        "hits": 4,
+        "rate": 0.14285714285714285
+      }
+    },
+    {
+      "channel": "14F",
+      "topic": "음식·외식",
+      "channel_total": 575,
+      "tagged": {
+        "n": 154,
+        "hits": 51,
+        "rate": 0.33116883116883117
+      },
+      "upload_share": 0.2678260869565217,
+      "title_only": {
+        "n": 105,
+        "hits": 41,
+        "rate": 0.3904761904761905
+      }
+    },
+    {
+      "channel": "14F",
+      "topic": "건강·의학",
+      "channel_total": 575,
+      "tagged": {
+        "n": 34,
+        "hits": 9,
+        "rate": 0.2647058823529412
+      },
+      "upload_share": 0.059130434782608696,
+      "title_only": {
+        "n": 8,
+        "hits": 4,
+        "rate": 0.5
+      }
+    },
+    {
+      "channel": "14F",
+      "topic": "사회·생활",
+      "channel_total": 575,
+      "tagged": {
+        "n": 81,
+        "hits": 18,
+        "rate": 0.2222222222222222
+      },
+      "upload_share": 0.1408695652173913,
+      "title_only": {
+        "n": 25,
+        "hits": 5,
+        "rate": 0.2
+      }
+    },
+    {
+      "channel": "14F",
+      "topic": "과학·환경",
+      "channel_total": 575,
+      "tagged": {
+        "n": 39,
+        "hits": 14,
+        "rate": 0.358974358974359
+      },
+      "upload_share": 0.06782608695652174,
+      "title_only": {
+        "n": 9,
+        "hits": 4,
+        "rate": 0.4444444444444444
+      }
+    },
+    {
+      "channel": "14F",
+      "topic": "문화·연예",
+      "channel_total": 575,
+      "tagged": {
+        "n": 56,
+        "hits": 16,
+        "rate": 0.2857142857142857
+      },
+      "upload_share": 0.09739130434782609,
+      "title_only": {
+        "n": 20,
+        "hits": 7,
+        "rate": 0.35
+      }
+    },
+    {
+      "channel": "크랩 KLAB",
+      "topic": "정치·국제",
+      "channel_total": 370,
+      "tagged": {
+        "n": 147,
+        "hits": 46,
+        "rate": 0.3129251700680272
+      },
+      "upload_share": 0.3972972972972973,
+      "title_only": {
+        "n": 57,
+        "hits": 21,
+        "rate": 0.3684210526315789
+      }
+    },
+    {
+      "channel": "크랩 KLAB",
+      "topic": "경제·소비",
+      "channel_total": 370,
+      "tagged": {
+        "n": 95,
+        "hits": 29,
+        "rate": 0.30526315789473685
+      },
+      "upload_share": 0.25675675675675674,
+      "title_only": {
+        "n": 24,
+        "hits": 9,
+        "rate": 0.375
+      }
+    },
+    {
+      "channel": "크랩 KLAB",
+      "topic": "기술·디지털",
+      "channel_total": 370,
+      "tagged": {
+        "n": 39,
+        "hits": 6,
+        "rate": 0.15384615384615385
+      },
+      "upload_share": 0.10540540540540541,
+      "title_only": {
+        "n": 13,
+        "hits": 0,
+        "rate": 0.0
+      }
+    },
+    {
+      "channel": "크랩 KLAB",
+      "topic": "음식·외식",
+      "channel_total": 370,
+      "tagged": {
+        "n": 38,
+        "hits": 12,
+        "rate": 0.3157894736842105
+      },
+      "upload_share": 0.10270270270270271,
+      "title_only": {
+        "n": 7,
+        "hits": 3,
+        "rate": 0.42857142857142855
+      }
+    },
+    {
+      "channel": "크랩 KLAB",
+      "topic": "건강·의학",
+      "channel_total": 370,
+      "tagged": {
+        "n": 33,
+        "hits": 4,
+        "rate": 0.12121212121212122
+      },
+      "upload_share": 0.0891891891891892,
+      "title_only": {
+        "n": 7,
+        "hits": 0,
+        "rate": 0.0
+      }
+    },
+    {
+      "channel": "크랩 KLAB",
+      "topic": "사회·생활",
+      "channel_total": 370,
+      "tagged": {
+        "n": 63,
+        "hits": 17,
+        "rate": 0.2698412698412698
+      },
+      "upload_share": 0.17027027027027028,
+      "title_only": {
+        "n": 12,
+        "hits": 3,
+        "rate": 0.25
+      }
+    },
+    {
+      "channel": "크랩 KLAB",
+      "topic": "과학·환경",
+      "channel_total": 370,
+      "tagged": {
+        "n": 26,
+        "hits": 5,
+        "rate": 0.19230769230769232
+      },
+      "upload_share": 0.07027027027027027,
+      "title_only": {
+        "n": 4,
+        "hits": 2,
+        "rate": 0.5
+      }
+    },
+    {
+      "channel": "크랩 KLAB",
+      "topic": "문화·연예",
+      "channel_total": 370,
+      "tagged": {
+        "n": 48,
+        "hits": 12,
+        "rate": 0.25
+      },
+      "upload_share": 0.12972972972972974,
+      "title_only": {
+        "n": 14,
+        "hits": 4,
+        "rate": 0.2857142857142857
+      }
+    },
+    {
+      "channel": "스브스뉴스",
+      "topic": "정치·국제",
+      "channel_total": 315,
+      "tagged": {
+        "n": 76,
+        "hits": 22,
+        "rate": 0.2894736842105263
+      },
+      "upload_share": 0.24126984126984127,
+      "title_only": {
+        "n": 31,
+        "hits": 8,
+        "rate": 0.25806451612903225
+      }
+    },
+    {
+      "channel": "스브스뉴스",
+      "topic": "경제·소비",
+      "channel_total": 315,
+      "tagged": {
+        "n": 87,
+        "hits": 21,
+        "rate": 0.2413793103448276
+      },
+      "upload_share": 0.2761904761904762,
+      "title_only": {
+        "n": 28,
+        "hits": 5,
+        "rate": 0.17857142857142858
+      }
+    },
+    {
+      "channel": "스브스뉴스",
+      "topic": "기술·디지털",
+      "channel_total": 315,
+      "tagged": {
+        "n": 19,
+        "hits": 4,
+        "rate": 0.21052631578947367
+      },
+      "upload_share": 0.06031746031746032,
+      "title_only": {
+        "n": 5,
+        "hits": 1,
+        "rate": 0.2
+      }
+    },
+    {
+      "channel": "스브스뉴스",
+      "topic": "음식·외식",
+      "channel_total": 315,
+      "tagged": {
+        "n": 39,
+        "hits": 5,
+        "rate": 0.1282051282051282
+      },
+      "upload_share": 0.12380952380952381,
+      "title_only": {
+        "n": 17,
+        "hits": 2,
+        "rate": 0.11764705882352941
+      }
+    },
+    {
+      "channel": "스브스뉴스",
+      "topic": "건강·의학",
+      "channel_total": 315,
+      "tagged": {
+        "n": 44,
+        "hits": 5,
+        "rate": 0.11363636363636363
+      },
+      "upload_share": 0.13968253968253969,
+      "title_only": {
+        "n": 14,
+        "hits": 4,
+        "rate": 0.2857142857142857
+      }
+    },
+    {
+      "channel": "스브스뉴스",
+      "topic": "사회·생활",
+      "channel_total": 315,
+      "tagged": {
+        "n": 96,
+        "hits": 29,
+        "rate": 0.3020833333333333
+      },
+      "upload_share": 0.3047619047619048,
+      "title_only": {
+        "n": 28,
+        "hits": 10,
+        "rate": 0.35714285714285715
+      }
+    },
+    {
+      "channel": "스브스뉴스",
+      "topic": "과학·환경",
+      "channel_total": 315,
+      "tagged": {
+        "n": 36,
+        "hits": 12,
+        "rate": 0.3333333333333333
+      },
+      "upload_share": 0.11428571428571428,
+      "title_only": {
+        "n": 9,
+        "hits": 5,
+        "rate": 0.5555555555555556
+      }
+    },
+    {
+      "channel": "스브스뉴스",
+      "topic": "문화·연예",
+      "channel_total": 315,
+      "tagged": {
+        "n": 27,
+        "hits": 8,
+        "rate": 0.2962962962962963
+      },
+      "upload_share": 0.08571428571428572,
+      "title_only": {
+        "n": 6,
+        "hits": 4,
+        "rate": 0.6666666666666666
+      }
+    },
+    {
+      "channel": "소탐대실",
+      "topic": "정치·국제",
+      "channel_total": 47,
+      "tagged": {
+        "n": 1,
+        "hits": 0,
+        "rate": 0.0
+      },
+      "upload_share": 0.02127659574468085,
+      "title_only": {
+        "n": 0,
+        "hits": 0,
+        "rate": null
+      }
+    },
+    {
+      "channel": "소탐대실",
+      "topic": "경제·소비",
+      "channel_total": 47,
+      "tagged": {
+        "n": 4,
+        "hits": 0,
+        "rate": 0.0
+      },
+      "upload_share": 0.0851063829787234,
+      "title_only": {
+        "n": 3,
+        "hits": 0,
+        "rate": 0.0
+      }
+    },
+    {
+      "channel": "소탐대실",
+      "topic": "기술·디지털",
+      "channel_total": 47,
+      "tagged": {
+        "n": 2,
+        "hits": 1,
+        "rate": 0.5
+      },
+      "upload_share": 0.0425531914893617,
+      "title_only": {
+        "n": 2,
+        "hits": 1,
+        "rate": 0.5
+      }
+    },
+    {
+      "channel": "소탐대실",
+      "topic": "음식·외식",
+      "channel_total": 47,
+      "tagged": {
+        "n": 10,
+        "hits": 1,
+        "rate": 0.1
+      },
+      "upload_share": 0.2127659574468085,
+      "title_only": {
+        "n": 9,
+        "hits": 1,
+        "rate": 0.1111111111111111
+      }
+    },
+    {
+      "channel": "소탐대실",
+      "topic": "건강·의학",
+      "channel_total": 47,
+      "tagged": {
+        "n": 9,
+        "hits": 5,
+        "rate": 0.5555555555555556
+      },
+      "upload_share": 0.19148936170212766,
+      "title_only": {
+        "n": 8,
+        "hits": 4,
+        "rate": 0.5
+      }
+    },
+    {
+      "channel": "소탐대실",
+      "topic": "사회·생활",
+      "channel_total": 47,
+      "tagged": {
+        "n": 9,
+        "hits": 2,
+        "rate": 0.2222222222222222
+      },
+      "upload_share": 0.19148936170212766,
+      "title_only": {
+        "n": 9,
+        "hits": 2,
+        "rate": 0.2222222222222222
+      }
+    },
+    {
+      "channel": "소탐대실",
+      "topic": "과학·환경",
+      "channel_total": 47,
+      "tagged": {
+        "n": 11,
+        "hits": 3,
+        "rate": 0.2727272727272727
+      },
+      "upload_share": 0.23404255319148937,
+      "title_only": {
+        "n": 8,
+        "hits": 2,
+        "rate": 0.25
+      }
+    },
+    {
+      "channel": "소탐대실",
+      "topic": "문화·연예",
+      "channel_total": 47,
+      "tagged": {
+        "n": 3,
+        "hits": 1,
+        "rate": 0.3333333333333333
+      },
+      "upload_share": 0.06382978723404255,
+      "title_only": {
+        "n": 2,
+        "hits": 1,
+        "rate": 0.5
+      }
+    },
+    {
+      "channel": "비디오머그",
+      "topic": "정치·국제",
+      "channel_total": 373,
+      "tagged": {
+        "n": 292,
+        "hits": 79,
+        "rate": 0.2705479452054795
+      },
+      "upload_share": 0.7828418230563002,
+      "title_only": {
+        "n": 196,
+        "hits": 44,
+        "rate": 0.22448979591836735
+      }
+    },
+    {
+      "channel": "비디오머그",
+      "topic": "경제·소비",
+      "channel_total": 373,
+      "tagged": {
+        "n": 181,
+        "hits": 66,
+        "rate": 0.36464088397790057
+      },
+      "upload_share": 0.48525469168900803,
+      "title_only": {
+        "n": 44,
+        "hits": 15,
+        "rate": 0.3409090909090909
+      }
+    },
+    {
+      "channel": "비디오머그",
+      "topic": "기술·디지털",
+      "channel_total": 373,
+      "tagged": {
+        "n": 89,
+        "hits": 32,
+        "rate": 0.3595505617977528
+      },
+      "upload_share": 0.2386058981233244,
+      "title_only": {
+        "n": 30,
+        "hits": 15,
+        "rate": 0.5
+      }
+    },
+    {
+      "channel": "비디오머그",
+      "topic": "음식·외식",
+      "channel_total": 373,
+      "tagged": {
+        "n": 22,
+        "hits": 3,
+        "rate": 0.13636363636363635
+      },
+      "upload_share": 0.058981233243967826,
+      "title_only": {
+        "n": 2,
+        "hits": 0,
+        "rate": 0.0
+      }
+    },
+    {
+      "channel": "비디오머그",
+      "topic": "건강·의학",
+      "channel_total": 373,
+      "tagged": {
+        "n": 41,
+        "hits": 10,
+        "rate": 0.24390243902439024
+      },
+      "upload_share": 0.10991957104557641,
+      "title_only": {
+        "n": 7,
+        "hits": 2,
+        "rate": 0.2857142857142857
+      }
+    },
+    {
+      "channel": "비디오머그",
+      "topic": "사회·생활",
+      "channel_total": 373,
+      "tagged": {
+        "n": 76,
+        "hits": 21,
+        "rate": 0.27631578947368424
+      },
+      "upload_share": 0.2037533512064343,
+      "title_only": {
+        "n": 19,
+        "hits": 3,
+        "rate": 0.15789473684210525
+      }
+    },
+    {
+      "channel": "비디오머그",
+      "topic": "과학·환경",
+      "channel_total": 373,
+      "tagged": {
+        "n": 46,
+        "hits": 14,
+        "rate": 0.30434782608695654
+      },
+      "upload_share": 0.12332439678284182,
+      "title_only": {
+        "n": 7,
+        "hits": 2,
+        "rate": 0.2857142857142857
+      }
+    },
+    {
+      "channel": "비디오머그",
+      "topic": "문화·연예",
+      "channel_total": 373,
+      "tagged": {
+        "n": 20,
+        "hits": 4,
+        "rate": 0.2
+      },
+      "upload_share": 0.05361930294906166,
+      "title_only": {
+        "n": 2,
+        "hits": 0,
+        "rate": 0.0
+      }
+    }
+  ],
+  "boilerplate_review": [
+    {
+      "channel": "14F",
+      "threshold_videos": 115,
+      "distinct_removed_lines": 3,
+      "common_removed_examples": [
+        {
+          "line": "14f 모바일 앱의 new 사원이 되어주세요!",
+          "videos": 294
+        },
+        {
+          "line": "14f 앱 다운로드하기",
+          "videos": 294
+        },
+        {
+          "line": "ios(아이폰) 👉",
+          "videos": 294
+        }
+      ]
+    },
+    {
+      "channel": "비디오머그",
+      "threshold_videos": 75,
+      "distinct_removed_lines": 7,
+      "common_removed_examples": [
+        {
+          "line": "copyright ⓒ sbs. all rights reserved. 무단 전재, 재배포 및 ai학습 이용 금지",
+          "videos": 365
+        },
+        {
+          "line": "▶비디오머그 채널 구독하기 :",
+          "videos": 362
+        },
+        {
+          "line": "▶homepage :",
+          "videos": 362
+        },
+        {
+          "line": "▶facebook :",
+          "videos": 360
+        },
+        {
+          "line": "▶twitter :",
+          "videos": 360
+        },
+        {
+          "line": "✔신뢰할 수 있는 재미, 비디오머그 videomug",
+          "videos": 343
+        },
+        {
+          "line": "♨지금 뜨거운 이슈, 함께 토론하기(스프 구독) :",
+          "videos": 318
+        }
+      ]
+    },
+    {
+      "channel": "소탐대실",
+      "threshold_videos": 10,
+      "distinct_removed_lines": 1,
+      "common_removed_examples": [
+        {
+          "line": "여러분들의 좋아요(❤️)와 댓글은 큰 힘이 됩니다!",
+          "videos": 13
+        }
+      ]
+    },
+    {
+      "channel": "스브스뉴스",
+      "threshold_videos": 63,
+      "distinct_removed_lines": 8,
+      "common_removed_examples": [
+        {
+          "line": "✔ 뉴스에는 위아래가 없다, 스브스뉴스",
+          "videos": 313
+        },
+        {
+          "line": "- 비즈니스 문의 -",
+          "videos": 313
+        },
+        {
+          "line": "브랜디드 콘텐츠 기획/제작 문의: branded@sbs.co.kr",
+          "videos": 313
+        },
+        {
+          "line": "기업/브랜드 채널 컨설팅 및 기획/제작 문의: solution@sbs.co.kr",
+          "videos": 313
+        },
+        {
+          "line": "- 스브스뉴스 제작진이 만들어가는 지속가능한 패브릭 브랜드",
+          "videos": 313
+        },
+        {
+          "line": "instagram :",
+          "videos": 313
+        },
+        {
+          "line": "facebook :",
+          "videos": 313
+        },
+        {
+          "line": "copyright ⓒ sbs. all rights reserved. 무단 전재, 재배포 및 ai학습 이용 금지",
+          "videos": 313
+        }
+      ]
+    },
+    {
+      "channel": "크랩 KLAB",
+      "threshold_videos": 74,
+      "distinct_removed_lines": 2,
+      "common_removed_examples": [
+        {
+          "line": "copyright ⓒ kbs. all rights reserved. 무단 전재, 재배포 및 이용(ai 학습 포함) 금지",
+          "videos": 369
+        },
+        {
+          "line": "00:00 시작",
+          "videos": 209
+        }
+      ]
+    }
+  ],
+  "case_samples": [
+    {
+      "video_id_derived_from_url": "5-L3V7rGuhk",
+      "channel": "14F",
+      "title": "[EN] 한국인들은 왜 이렇게 급식에 진심일까🥄ㅣ돈슐랭 / 14F",
+      "url": "https://www.youtube.com/watch?v=5-L3V7rGuhk",
+      "description": "가장 가난했던 나라가\n최고의 급식을 먹는 이유\n\n급식실의 모든 분들께\n감사드립니다🙆‍♀️\n\n#한국급식 #미국급식 #학교급식",
+      "description_after_repeated_line_removal": "가장 가난했던 나라가\n최고의 급식을 먹는 이유\n\n급식실의 모든 분들께\n감사드립니다🙆‍♀️\n\n#한국급식 #미국급식 #학교급식",
+      "matches": {
+        "정치·국제": {
+          "title_words": [],
+          "description_words": [
+            "미국"
+          ]
+        },
+        "음식·외식": {
+          "title_words": [
+            "돈슐랭",
+            "급식"
+          ],
+          "description_words": [
+            "급식"
+          ]
+        },
+        "사회·생활": {
+          "title_words": [],
+          "description_words": [
+            "학교"
+          ]
+        }
+      },
+      "top_quartile": true
+    },
+    {
+      "video_id_derived_from_url": "Sc56962wLrQ",
+      "channel": "크랩 KLAB",
+      "title": "‘회사 이름에서 어그 떼어버리겠습니다’, 호주 기업들이 어그를 어그라고 부르지 못 하는 이유｜크랩",
+      "url": "https://www.youtube.com/watch?v=Sc56962wLrQ",
+      "description": "#크랩 #어그 #호주 #미국\n\n양털 부츠를 일컫는 말 '어그'!\n미국과 호주가 이 'UGG'라는 단어를 두고\n긴 분쟁을 해왔다는 사실, 알고 계셨나요?\n호주는 심지어 정부까지 개입해야 한다는 이야기가\n나오고 있는데...\n대체 왜 이런 상황이 벌어진 걸까요?\n크랩이 자세한 이야기를 다뤄봤습니다\n\n※바로 잡습니다※\n3:33 법무법인 유한 클라스  → 법무법인(유한) 클라스한결\n\nCopyright ⓒ KBS. All rights reserved. 무단 전재, 재배포 및 이용(AI 학습 포함) 금지",
+      "description_after_repeated_line_removal": "#크랩 #어그 #호주 #미국\n\n양털 부츠를 일컫는 말 '어그'!\n미국과 호주가 이 'ugg'라는 단어를 두고\n긴 분쟁을 해왔다는 사실, 알고 계셨나요?\n호주는 심지어 정부까지 개입해야 한다는 이야기가\n나오고 있는데...\n대체 왜 이런 상황이 벌어진 걸까요?\n크랩이 자세한 이야기를 다뤄봤습니다\n\n※바로 잡습니다※\n3:33 법무법인 유한 클라스  → 법무법인(유한) 클라스한결\n",
+      "matches": {
+        "정치·국제": {
+          "title_words": [],
+          "description_words": [
+            "미국"
+          ]
+        },
+        "경제·소비": {
+          "title_words": [
+            "기업"
+          ],
+          "description_words": []
+        }
+      },
+      "top_quartile": true
+    },
+    {
+      "video_id_derived_from_url": "CVWl-HvshVI",
+      "channel": "스브스뉴스",
+      "title": "이 가격이 서울에서 가능한가요...? 구로디지털단지 가성비 끝판왕 식당에 다녀왔습니다. [갓 나온 맛도리 EP.110] / 스브스뉴스",
+      "url": "https://www.youtube.com/watch?v=CVWl-HvshVI",
+      "description": "하루 딱 2시간만 영업한다는 엄청난 가성비 식당이 구내식당의 성지, 구로디지털단지에 있다고요?🏙️\n\n이곳에선 7천 원만 내면 돈가스와 함께 사이드 메뉴 10종을 무한으로 먹을 수 있다는데..🍖\n\n고물가 시대 서울에서 이 가격이 대체 어떻게 가능한 걸까요?\n자세히 보니 간판도 식당이 아니라.. 맥줏집 간판이네??🍺\n\n의문점으로 가득한 이 미스터리 식당이 궁금하다면...\n갓 나온 맛도리에서 확인하세요!\n\n✅이 영상은 제작비 지원을 받지 않았습니다\n\n00:00 오프닝\n00:14 돈가스 뷔페라며.. 맥줏집🍺이 왜 나와,,?\n01:06 사이드 퀄리티가 ㄷㄷ (feat. 중식 데이)\n01:42 의외의 짜장면 맛집 발견함🍜\n02:41 언제 먹어도 갓 나온 음식🍖\n03:11 직장인들이 사랑한다는 ❤️돈가스 무한리필 집❤️\n03:41 맥줏집에 초등학생❓❓ 인지부조화 오는 장면;;\n04:18 돈가스 무한 리필인데 7,000원이 가능한 비밀🤫\n05:01 하루 2시간만 장사해도 먹고살 수 있을까?🤔\n05:52 다음 화 예고\n\n\n✔ 뉴스에는 위아래가 없다, 스브스뉴스\n\n\n- 비즈니스 문의 -\n브랜디드 콘텐츠 기획/제작 문의: branded@sbs.co.kr\n기업/브랜드 채널 컨설팅 및 기획/제작 문의: solution@sbs.co.kr\n\n- 링크 -\n허티: https://heartyfabric.com\n- 스브스뉴스 제작진이 만들어가는 지속가능한 패브릭 브랜드\n\nInstagram :  https://www.instagram.com/subusunews\nFacebook :  https://www.facebook.com/subusunews\n홈페이지 : https://news.sbs.co.kr/news/subusuNews.do?plink=GNB&cooper=SBSNEWS\n\n\nCopyright Ⓒ SBS. All rights reserved. 무단 전재, 재배포 및 AI학습 이용 금지",
+      "description_after_repeated_line_removal": "하루 딱 2시간만 영업한다는 엄청난 가성비 식당이 구내식당의 성지, 구로디지털단지에 있다고요?🏙️\n\n이곳에선 7천 원만 내면 돈가스와 함께 사이드 메뉴 10종을 무한으로 먹을 수 있다는데..🍖\n\n고물가 시대 서울에서 이 가격이 대체 어떻게 가능한 걸까요?\n자세히 보니 간판도 식당이 아니라.. 맥줏집 간판이네??🍺\n\n의문점으로 가득한 이 미스터리 식당이 궁금하다면...\n갓 나온 맛도리에서 확인하세요!\n\n✅이 영상은 제작비 지원을 받지 않았습니다\n\n00:00 오프닝\n00:14 돈가스 뷔페라며.. 맥줏집🍺이 왜 나와,,?\n01:06 사이드 퀄리티가 ㄷㄷ (feat. 중식 데이)\n01:42 의외의 짜장면 맛집 발견함🍜\n02:41 언제 먹어도 갓 나온 음식🍖\n03:11 직장인들이 사랑한다는 ❤️돈가스 무한리필 집❤️\n03:41 맥줏집에 초등학생❓❓ 인지부조화 오는 장면;;\n04:18 돈가스 무한 리필인데 7,000원이 가능한 비밀🤫\n05:01 하루 2시간만 장사해도 먹고살 수 있을까?🤔\n05:52 다음 화 예고\n\n\n\n\n\n- 링크 -\n허티:  \n\n홈페이지 :  \n\n",
+      "matches": {
+        "경제·소비": {
+          "title_words": [
+            "가격",
+            "가성비"
+          ],
+          "description_words": [
+            "가격",
+            "물가",
+            "가성비"
+          ]
+        },
+        "음식·외식": {
+          "title_words": [
+            "식당"
+          ],
+          "description_words": [
+            "음식",
+            "식당",
+            "맛집"
+          ]
+        },
+        "사회·생활": {
+          "title_words": [],
+          "description_words": [
+            "학생",
+            "직장"
+          ]
+        }
+      },
+      "top_quartile": false
+    },
+    {
+      "video_id_derived_from_url": "njFNSJvm-DM",
+      "channel": "소탐대실",
+      "title": "[EN/ES] 믿었던 플라스틱 분리수거의 배신",
+      "url": "https://www.youtube.com/watch?v=njFNSJvm-DM",
+      "description": "나름 분리수거 잘하기로 유명한 우리나라!\n그런데 그 양이 어마 무시하다는 게 문제라는데요😱\n\n그래서 소탐대실도 일주일 동안 플라스틱을 모아봤더니…!\n생각보다 훨씬 많은 양의 플라스틱 쓰레기가 모였습니다🗑️\n\n우리가 열심히 분리수거하면\n이 많은 양들의 플라스틱이 전부 다 재활용이 될까?\n\n궁금증을 풀기 위해\n플라스틱의 재활용 과정을 따라가봤습니다🔎\n\n#소탐대실 #플라스틱 #환경",
+      "description_after_repeated_line_removal": "나름 분리수거 잘하기로 유명한 우리나라!\n그런데 그 양이 어마 무시하다는 게 문제라는데요😱\n\n그래서 소탐대실도 일주일 동안 플라스틱을 모아봤더니…!\n생각보다 훨씬 많은 양의 플라스틱 쓰레기가 모였습니다🗑️\n\n우리가 열심히 분리수거하면\n이 많은 양들의 플라스틱이 전부 다 재활용이 될까?\n\n궁금증을 풀기 위해\n플라스틱의 재활용 과정을 따라가봤습니다🔎\n\n#소탐대실 #플라스틱 #환경",
+      "matches": {
+        "과학·환경": {
+          "title_words": [
+            "플라스틱",
+            "분리수거"
+          ],
+          "description_words": [
+            "플라스틱",
+            "분리수거",
+            "환경"
+          ]
+        }
+      },
+      "top_quartile": false
+    },
+    {
+      "video_id_derived_from_url": "Jepfk32czqQ",
+      "channel": "비디오머그",
+      "title": "신세계에게 중국 알리가 필요했던 이유..21세기 '나당연합'? / 비디오머그 / 귀에빡종원",
+      "url": "https://www.youtube.com/watch?v=Jepfk32czqQ",
+      "description": "\"적의 적은 동지?\"\n큰 위협이던 알리와 손 잡은 신세계!\n한 때 소셜미디어에 '멸공' 시리즈를 올렸던 정용진 회장이라 이번 알리와의 합작이 더욱 기습적으로 느껴졌습니다.\n그런데, 마침 이와 비슷한 시기에 CJ대한통운은 꿈에도 그리던 '주 7일 배송'을 본격 선언하고 나섰습니다.\n이미 지난해부터 신세계와 CJ대한통운은 이른바 '사촌동맹'을 맺은 상황에서 \n이런 일들이 동시에 벌어진 게 과연 우연일까?라는 얘기도 나옵니다.\n신세계는 알리로부터 무엇을 얻으려고 한 걸까요?\nCJ대한통운의 주 7일 배송을 가장 두려워 하는 건 누구일까요?\n이게게 과연 소비자에게는 좋은 일일까요?\n'귀에 빡종원'에서 한 발 더 들어간 설명을 해 드립니다.\n\n(취재: 김종원 / 영상취재: 김현상, 김태훈 / 편집: 김인선 / 구성: 조도혜 / 작가: 유진경 / CG: 서현중, 장지혜, 이희문 / 디지털뉴스제작부)\n\n✔신뢰할 수 있는 재미, 비디오머그 VIDEOMUG\n\n#경제 #중국 #정용진 #이명희 #주식 #주가 #자사주 #신세계 #알리 #쿠팡 #택배 #이마트 #cj #테무 #트럼프 #대한통운 #빡종원 #귀에빡종원 #비디오머그 \n\n♨지금 뜨거운 이슈, 함께 토론하기(스프 구독) : https://premium.sbs.co.kr\n\n▶비디오머그 채널 구독하기 : https://n.sbs.co.kr/mugTube\n▶Homepage : https://videomug.co.kr\n▶Facebook : https://www.facebook.com/videomug\n▶Twitter : https://twitter.com/videomug_sbs\n\nCopyright Ⓒ SBS. All rights reserved. 무단 전재, 재배포 및 AI학습 이용 금지",
+      "description_after_repeated_line_removal": "\"적의 적은 동지?\"\n큰 위협이던 알리와 손 잡은 신세계!\n한 때 소셜미디어에 '멸공' 시리즈를 올렸던 정용진 회장이라 이번 알리와의 합작이 더욱 기습적으로 느껴졌습니다.\n그런데, 마침 이와 비슷한 시기에 cj대한통운은 꿈에도 그리던 '주 7일 배송'을 본격 선언하고 나섰습니다.\n이미 지난해부터 신세계와 cj대한통운은 이른바 '사촌동맹'을 맺은 상황에서 \n이런 일들이 동시에 벌어진 게 과연 우연일까?라는 얘기도 나옵니다.\n신세계는 알리로부터 무엇을 얻으려고 한 걸까요?\ncj대한통운의 주 7일 배송을 가장 두려워 하는 건 누구일까요?\n이게게 과연 소비자에게는 좋은 일일까요?\n'귀에 빡종원'에서 한 발 더 들어간 설명을 해 드립니다.\n\n(취재: 김종원 / 영상취재: 김현상, 김태훈 / 편집: 김인선 / 구성: 조도혜 / 작가: 유진경 / cg: 서현중, 장지혜, 이희문 / 디지털뉴스제작부)\n\n\n#경제 #중국 #정용진 #이명희 #주식 #주가 #자사주 #신세계 #알리 #쿠팡 #택배 #이마트 #cj #테무 #트럼프 #대한통운 #빡종원 #귀에빡종원 #비디오머그 \n\n\n",
+      "matches": {
+        "정치·국제": {
+          "title_words": [
+            "중국"
+          ],
+          "description_words": [
+            "트럼프",
+            "중국"
+          ]
+        },
+        "경제·소비": {
+          "title_words": [],
+          "description_words": [
+            "주식",
+            "경제",
+            "소비"
+          ]
+        }
+      },
+      "top_quartile": true
+    },
+    {
+      "video_id_derived_from_url": "KtSt2wjckak",
+      "channel": "14F",
+      "title": "애플 구형 아이패드 가격 인상,  왜 올리는 거예요? / 14F",
+      "url": "https://www.youtube.com/watch?v=KtSt2wjckak",
+      "description": "우리나라의 ‘애플’ 사랑은 유명하죠. 다소 부담스러운 가격에도 새로운 아이폰이 출시됐다고 하면 매장 오픈런은 기본인데요. 한국 시장에서 충성도 높은 고객을 많이 확보하고 있는 애플이 우리나라에서 ‘아이패드’ 가격을 올렸어요. 그것도 신형이 아니라 지난해 출시된 구형 가격을 말이죠.\n\n#애플 #아이패드 #가격인상\n\n14F 모바일 앱의 new 사원이 되어주세요!\n\n14F 앱 다운로드하기\n안드로이드 👉 https://bit.ly/3LbOCeZ\niOS(아이폰) 👉 https://apple.co/3Lewotp",
+      "description_after_repeated_line_removal": "우리나라의 ‘애플’ 사랑은 유명하죠. 다소 부담스러운 가격에도 새로운 아이폰이 출시됐다고 하면 매장 오픈런은 기본인데요. 한국 시장에서 충성도 높은 고객을 많이 확보하고 있는 애플이 우리나라에서 ‘아이패드’ 가격을 올렸어요. 그것도 신형이 아니라 지난해 출시된 구형 가격을 말이죠.\n\n#애플 #아이패드 #가격인상\n\n\n안드로이드 👉  ",
+      "matches": {
+        "경제·소비": {
+          "title_words": [
+            "가격"
+          ],
+          "description_words": [
+            "가격"
+          ]
+        },
+        "기술·디지털": {
+          "title_words": [],
+          "description_words": [
+            "아이폰"
+          ]
+        }
+      },
+      "top_quartile": false
+    },
+    {
+      "video_id_derived_from_url": "EBQ9ZbFFLuY",
+      "channel": "14F",
+      "title": "같은 공장, 가격은 반값? 노브랜드 PB의 비밀ㅣ선발대 / 14F",
+      "url": "https://www.youtube.com/watch?v=EBQ9ZbFFLuY",
+      "description": "제품은 똑같거나 비슷한데 가격은 다르다?🧐\n가성비 템으로 소문난 노브랜드 PB 상품 직접 파헤쳐 봤습니다! \n\n#노브랜드 #노브랜드카스타드  #노브랜드PB",
+      "description_after_repeated_line_removal": "제품은 똑같거나 비슷한데 가격은 다르다?🧐\n가성비 템으로 소문난 노브랜드 pb 상품 직접 파헤쳐 봤습니다! \n\n#노브랜드 #노브랜드카스타드  #노브랜드pb",
+      "matches": {
+        "경제·소비": {
+          "title_words": [
+            "가격",
+            "브랜드"
+          ],
+          "description_words": [
+            "가격",
+            "가성비",
+            "브랜드"
+          ]
+        }
+      },
+      "top_quartile": false
+    },
+    {
+      "video_id_derived_from_url": "CVCxJWB_gm8",
+      "channel": "소탐대실",
+      "title": "[EN/ES] 선글라스에도 유효기간이 있을까?",
+      "url": "https://www.youtube.com/watch?v=CVCxJWB_gm8",
+      "description": "강한 햇빛으로부터 내 눈을 지켜주는 선글라스 🕶️\n\n그런데 강한 자외선에 렌즈가 상하지는 않을까요?\n오래된 선글라스를 계속 써도 되는지, 유효기간은 없는지\n소탐대실 팀에서 알아봤습니다 🔍\n\n탐사대원 여러분의 좋아요(💛)와 댓글은 큰 힘이 됩니다!\n\n#소탐대실 #선글라스 #자외선",
+      "description_after_repeated_line_removal": "강한 햇빛으로부터 내 눈을 지켜주는 선글라스 🕶️\n\n그런데 강한 자외선에 렌즈가 상하지는 않을까요?\n오래된 선글라스를 계속 써도 되는지, 유효기간은 없는지\n소탐대실 팀에서 알아봤습니다 🔍\n\n탐사대원 여러분의 좋아요(💛)와 댓글은 큰 힘이 됩니다!\n\n#소탐대실 #선글라스 #자외선",
+      "matches": {
+        "사회·생활": {
+          "title_words": [
+            "선글라스"
+          ],
+          "description_words": [
+            "선글라스"
+          ]
+        }
+      },
+      "top_quartile": false
+    },
+    {
+      "video_id_derived_from_url": "kue2O19f1Lg",
+      "channel": "비디오머그",
+      "title": "수수료 내며 애플페이에 줄 선 카드사..삼성 화났다? \"우리도 수수료 받아 기부할 것\" / 비디오머그 / 귀에빡종원",
+      "url": "https://www.youtube.com/watch?v=kue2O19f1Lg",
+      "description": "00:00 카드사 내부 \"애플페이에 호구 잡혔다\"\n00:31 과거 카드사 \"삼성페이 무료인데 비싼 애플페이 왜 함?\"\n01:59 현대가 사위 정태영 부회장이 밀어붙인 '애플페이', \"효과는 굉장했다\"\n03:57 점유율은 늘었지만 순이익은 크지 않았던 애플페이\n05:44 현대카드 또 하나의 독점 '코스트코', 애플페이와 다른 점은?\n06:40 순이익 크지 않은 애플페이, 카드사들이 줄 서서 도입하는 이유\n09:53 갤럭시의 나라 한국, 애플페이 '확장성' 한계는 어쩌나\n11:17 10년간 공짜였던 삼성페이 \"이제는 돈 받을 수 밖에\"\n13:18 삼성페이 유료화는 사실 '비정상의 정상화'\n15:00 카드사, 페이 수수료 소비자에게 전가 우려\n15:54 \"한국시장 관심 없는 애플\"?\n16:50 K-갈라파고스 해소는 좋은데, '소비자 피해' 감시해야\n\n그동안 이용료 무료인 삼성페이를 타고 변화보다는\n안정적인 성장을 해 오던 국내 카드사들에게 일대 변혁기가 다가오고 있습니다.\n며칠 안에 신한카드가, 다음 달엔 KB국민카드가 애플페이 서비스를 시작할 예정이고,\n다음 분기에는 하나카드까지 애플페이에 합류한단 얘기가 나옵니다.\n애플페이 선두주자 현대카드는 서비스 개시 이후\n점유율 1위를 달성하는 기염을 토하기도 했습니다.\n\n이 시점에 문제는 '페이 서비스' 이용료입니다.\n삼성페이는 지난 10년 간 카드사로부터 따로 페이 이용료를 받지 않았지만,\n애플페이가 결제 건당 0.15%라는 높은 수수료를 받아감에 따라\n삼성도 이제는 수수료를 안 받을 수 없는 상황이 된 겁니다.\n그렇잖아도 수익이 줄어든다고 주장하던 카드사들,\n과연 갑자기 생겨난 비용인 '페이 수수료'를 순순히 낼까요?\n아니면 또 한 번 소비자 이익을 쥐어 짜손해 부분을 충당하려 할까요?\n'귀에 빡!종원'에서 취재했습니다.\n\n(취재: 김종원 / 영상취재: 강동철 / 편집: 정용희 / 연출: 조도혜 / 작가: 유진경 / CG: 서현중 장지혜 이희문 / 디지털뉴스제작부)\n\n✔신뢰할 수 있는 재미, 비디오머그 VIDEOMUG\n\n#아이폰 #16e #애플 #페이 #삼성 #갤럭시 #s25 #이재용 #경제 #신한카드 #국민카드 #토스 #네이버 #카카오 #빡종원 #귀에빡종원 #비디오머그\n\n♨지금 뜨거운 이슈, 함께 토론하기(스프 구독) : https://premium.sbs.co.kr\n\n▶비디오머그 채널 구독하기 : https://n.sbs.co.kr/mugTube\n▶Homepage : https://videomug.co.kr\n▶Facebook : https://www.facebook.com/videomug\n▶Twitter : https://twitter.com/videomug_sbs\n\nCopyright Ⓒ SBS. All rights reserved. 무단 전재, 재배포 및 AI학습 이용 금지",
+      "description_after_repeated_line_removal": "00:00 카드사 내부 \"애플페이에 호구 잡혔다\"\n00:31 과거 카드사 \"삼성페이 무료인데 비싼 애플페이 왜 함?\"\n01:59 현대가 사위 정태영 부회장이 밀어붙인 '애플페이', \"효과는 굉장했다\"\n03:57 점유율은 늘었지만 순이익은 크지 않았던 애플페이\n05:44 현대카드 또 하나의 독점 '코스트코', 애플페이와 다른 점은?\n06:40 순이익 크지 않은 애플페이, 카드사들이 줄 서서 도입하는 이유\n09:53 갤럭시의 나라 한국, 애플페이 '확장성' 한계는 어쩌나\n11:17 10년간 공짜였던 삼성페이 \"이제는 돈 받을 수 밖에\"\n13:18 삼성페이 유료화는 사실 '비정상의 정상화'\n15:00 카드사, 페이 수수료 소비자에게 전가 우려\n15:54 \"한국시장 관심 없는 애플\"?\n16:50 k-갈라파고스 해소는 좋은데, '소비자 피해' 감시해야\n\n그동안 이용료 무료인 삼성페이를 타고 변화보다는\n안정적인 성장을 해 오던 국내 카드사들에게 일대 변혁기가 다가오고 있습니다.\n며칠 안에 신한카드가, 다음 달엔 kb국민카드가 애플페이 서비스를 시작할 예정이고,\n다음 분기에는 하나카드까지 애플페이에 합류한단 얘기가 나옵니다.\n애플페이 선두주자 현대카드는 서비스 개시 이후\n점유율 1위를 달성하는 기염을 토하기도 했습니다.\n\n이 시점에 문제는 '페이 서비스' 이용료입니다.\n삼성페이는 지난 10년 간 카드사로부터 따로 페이 이용료를 받지 않았지만,\n애플페이가 결제 건당 0.15%라는 높은 수수료를 받아감에 따라\n삼성도 이제는 수수료를 안 받을 수 없는 상황이 된 겁니다.\n그렇잖아도 수익이 줄어든다고 주장하던 카드사들,\n과연 갑자기 생겨난 비용인 '페이 수수료'를 순순히 낼까요?\n아니면 또 한 번 소비자 이익을 쥐어 짜손해 부분을 충당하려 할까요?\n'귀에 빡!종원'에서 취재했습니다.\n\n(취재: 김종원 / 영상취재: 강동철 / 편집: 정용희 / 연출: 조도혜 / 작가: 유진경 / cg: 서현중 장지혜 이희문 / 디지털뉴스제작부)\n\n\n#아이폰 #16e #애플 #페이 #삼성 #갤럭시 #s25 #이재용 #경제 #신한카드 #국민카드 #토스 #네이버 #카카오 #빡종원 #귀에빡종원 #비디오머그\n\n\n",
+      "matches": {
+        "경제·소비": {
+          "title_words": [],
+          "description_words": [
+            "경제",
+            "소비"
+          ]
+        },
+        "기술·디지털": {
+          "title_words": [],
+          "description_words": [
+            "아이폰"
+          ]
+        }
+      },
+      "top_quartile": true
+    }
+  ],
+  "checks": {
+    "all_1680_topic_and_title_flags_match_v3": true,
+    "all_40_topic_cells_match_v3": true,
+    "all_6_title_features_and_30_channel_cells_match_v3": true
+  },
+  "classification_limit": "제목·설명 단어 목록에 의한 탐색 분류. 국가명·다의어·홍보 문구 잔여로 오분류가 있을 수 있다. 수작업으로 코딩한 정답 분류가 아니다."
+}

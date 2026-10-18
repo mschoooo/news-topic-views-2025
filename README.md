@@ -1,6 +1,6 @@
 # 다음 영상의 주제와 제목 — V5 최종본
 
-[HTML 발표](https://mschoooo.github.io/news-topic-views-2025/?v=4) · [15페이지 PDF](https://mschoooo.github.io/news-topic-views-2025/versions/v5/news-topics-v5.pdf) · [상세 부록](https://mschoooo.github.io/news-topic-views-2025/appendix.html) · [버전 기록](https://mschoooo.github.io/news-topic-views-2025/versions/)
+[HTML 발표](https://mschoooo.github.io/news-topic-views-2025/?v=5) · [15페이지 PDF](https://mschoooo.github.io/news-topic-views-2025/versions/v5/news-topics-v5.pdf) · [상세 부록](https://mschoooo.github.io/news-topic-views-2025/appendix.html) · [버전 기록](https://mschoooo.github.io/news-topic-views-2025/versions/)
 
 V5는 V4의 스토리·수치·이미지를 유지하고 실제 모바일 브라우저의 화면 배율 계산을 보정한 최종본이다. V4 고정본은 중간 검증본으로 보존한다.
 
