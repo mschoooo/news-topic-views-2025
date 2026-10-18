@@ -1,0 +1,26 @@
+{
+  "version": "v2",
+  "saved_at": "2026-10-18T18:45:32.202762+09:00",
+  "source_commit": "21cba70e558bd799cd94df27e06ecf507860f22b",
+  "slides": 20,
+  "pdf": "news-topics-v2.pdf",
+  "pdf_pages": 20,
+  "files": {
+    "analysis.py": "0713454d0cb0fb30f6d605b7df2fab9456152ccdeec51289a0417512c67a2c97",
+    "assets/ANIME-LICENSE.txt": "dc6ebeac55c967c7d0f33034011e25da0b4e27fe378b073e5fe184d621d620fb",
+    "assets/anime.min.js": "b5ce1be3c3f530f192e0f2571d1942846096d66119cbada34bfdc912c4873f35",
+    "assets/dubai.jpg": "ce4df7bada141a55de8668a438c9d95e85e7c47e0312f66b2f66556b14024665",
+    "assets/hanwha.jpg": "6f71fd477023572e142c3fe3744df4f7114fd32101c99a78f99c63a92d1896f8",
+    "assets/PRETENDARD-LICENSE.txt": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+    "assets/PretendardVariable.woff2": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
+    "collection_report.md": "f755975eee1298fc91dcbb707d8d7a3809127b1c134d7b86c484da75e9080e1a",
+    "deck.js": "426ec80c7bfd2284a1aedd0035d8e2a6ecb678f130b5abd5270b7caca0099b25",
+    "improvement_plan.md": "7c179c03917ee97c046e301c5f55f1d59c8d510b97384c5b88b72a1a1e3fe662",
+    "index.html": "bd4e64b615b61f48446600df2dde67bb29bee0fd74c659d31317abb75cea5901",
+    "news-topics-v2.pdf": "34079881c3d4491fa76ece7fe4880b776d0e29dae016e46b81b2a0064703c7c4",
+    "README.md": "df2fa8d09e161cb708c462b999b1f68ccebe4e924380a623aec4f7af45c8e8de",
+    "research_data.json": "1ff9bec79fbab6180f879733e979ceef47603a3119616ed1d52d5ee0e3ff1097",
+    "source.csv": "1365e9737dcb21b5f738d53dac823d9989175b0164798d64153a64b96f9a565c",
+    "style.css": "a8b59d488380487c1a089e47d6fd43234727baee8f7fc5d2b998763f6472d0f3"
+  }
+}
