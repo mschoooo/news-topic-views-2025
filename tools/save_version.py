@@ -44,6 +44,6 @@ assert len(doc)==count,(len(doc),count)
 for page in doc:
  assert abs(page.rect.width/page.rect.height-16/9)<.001
  assert len(page.get_text().strip())>20
-manifest={'version':version,'saved_at':datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).isoformat(),'source_commit':commit,'slides':count,'pdf':pdf.name,'pdf_pages':len(doc),'files':{str(p.relative_to(dest)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(dest.rglob('*')) if p.is_file()}}
+manifest={'version':version,'saved_at':datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).isoformat(),'source_commit':commit,'slides':count,'pdf':pdf.name,'pdf_pages':len(doc),'files':{p.relative_to(dest).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(dest.rglob('*')) if p.is_file()}}
 (dest/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({'version':version,'pdf':str(pdf),'pages':len(doc),'source_commit':commit},ensure_ascii=False))
