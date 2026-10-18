@@ -5,9 +5,11 @@ const W=Number(stage.dataset.width)||1920,H=Number(stage.dataset.height)||1080;
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 let current=0,notesOpen=false,revealTimer=null;
 function resize(){
- const side=notesOpen&&innerWidth>650?430:0;
- const below=notesOpen&&innerWidth<=650?innerHeight*.42:0;
- const w=innerWidth-side,h=innerHeight-below-52;
+ const viewportWidth=document.documentElement.clientWidth;
+ const viewportHeight=document.documentElement.clientHeight;
+ const side=notesOpen&&viewportWidth>650?430:0;
+ const below=notesOpen&&viewportWidth<=650?viewportHeight*.42:0;
+ const w=viewportWidth-side,h=viewportHeight-below-52;
  const scale=Math.min(w/W,h/H);
  stage.style.transform=`translate(${(w-W*scale)/2}px,${(h-H*scale)/2}px) scale(${scale})`;
 }

@@ -1,0 +1,20 @@
+{
+  "version": "v4",
+  "checked_at": "2026-10-19T00:06:42.204869+09:00",
+  "pages_build_commit": "0fcf13d57c33daa37486a15fdec446d68fde155d",
+  "status": "superseded_after_public_mobile_qa",
+  "preserved_archive": "https://mschoooo.github.io/news-topic-views-2025/versions/v4/",
+  "superseded_by": "v5",
+  "desktop_files_images_controls": "passed before mobile assertion",
+  "mobile": "failed",
+  "observed": {
+    "viewport_width": 390,
+    "layout_client_width": 390,
+    "inner_width": 1560,
+    "document_scroll_width": 1560,
+    "stage_width": 1560
+  },
+  "cause": "Scale calculation used innerWidth/innerHeight after oversized content expanded the mobile viewport. Desktop width emulation alone did not detect this.",
+  "correction": "V5 uses document.documentElement.clientWidth/clientHeight and is tested with an actual is_mobile/has_touch browser context before archiving.",
+  "unchanged": "Research data, statistics, storyline, design and images retained. V4 files are not overwritten."
+}

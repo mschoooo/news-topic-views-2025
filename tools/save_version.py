@@ -16,6 +16,7 @@ if not preview and dest.exists() and ('--resume' not in sys.argv or (dest/'manif
  raise SystemExit(f'Refusing to overwrite existing version: {dest}')
 files=['index.html','style.css','deck.js','research_data.json','source.csv','analysis.py','collection_report.md','README.md']
 optional=['improvement_plan.md','appendix.html','analysis_review.py','analysis_review.md','v4_metrics.json','build_v4.py','v4_style.css','v4_deck.js','image_sources.json','image_sources.md','speaker_notes.md','storyboard.json','revision_log.md','qa_report.md']
+optional += ['build_v5.py','v5_style.css','v5_deck.js']
 files += [n for n in optional if (ROOT/n).is_file()]
 for name in files:
  if not (ROOT/name).is_file():raise SystemExit(f'Missing {name}')
